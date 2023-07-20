@@ -1,4 +1,4 @@
-package Ex007;
+package Lec1.Ex007;
 
 import java.util.Random;
  

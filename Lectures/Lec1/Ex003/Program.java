@@ -1,6 +1,4 @@
-package Ex003;
-
-import static Ex003.Point2D.distance;
+package Lec1.Ex003;
 
 public class Program {
 

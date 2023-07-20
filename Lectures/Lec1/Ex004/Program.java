@@ -1,4 +1,4 @@
-package Ex004;
+package Lec1.Ex004;
 
 public class Program {
     public static void main(String[] args) {

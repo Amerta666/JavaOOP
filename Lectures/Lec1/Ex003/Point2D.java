@@ -1,4 +1,4 @@
-package Ex003;
+package Lec1.Ex003;
 
 /**
  * Это точка 2D
