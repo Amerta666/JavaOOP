@@ -1,4 +1,4 @@
-package sem2.Ex001;
+package sem2.ex001;
 
 public interface INumeric {
 
