@@ -4,13 +4,14 @@ public class Rectangle implements IRectangle {
     double width;
     double height;
 
-    public Rectangle() {
-        width = 5.0;
-        height = 3.0;
-    }
     public Rectangle(double width, double height) {
         this.width = width;
         this.height = height;
+    }
+
+    public Rectangle() {
+        this.width = Width();
+        this.height = Height();
     }
 
     @Override
