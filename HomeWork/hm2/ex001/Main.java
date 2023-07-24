@@ -1,9 +1,10 @@
 package hm2.ex001;
 
-public class Main {
+public class Main implements IConst {
     public static void main(String[] args) {
-        Rectangle r1 = new Rectangle();
+        Rectangle r1 = new Rectangle(5, 15);
         Rectangle r2 = new Rectangle(7.4, 4.15);
+        Cube c1 = new Cube(20);
 
         System.out.println("Прямоуголник r1");
         System.out.println("Ширина - " + r1.width + ", Высота - " + r1.height);
@@ -18,5 +19,17 @@ public class Main {
         System.out.println(r2.calculateArea());
         System.out.print("Периметр - ");
         System.out.println(r2.calculatePerimeter());
+        System.out.println();
+        if (c1.width > MAX_SIDE) {
+            System.out.println(ERROR);
+        } else {
+            System.out.println("Куб с1");
+            System.out.println("Ширина - " + c1.width + ", Высота - " + c1.height);
+            System.out.print("Площадь - ");
+            System.out.println(c1.calculateArea());
+            System.out.print("Периметр - ");
+            System.out.println(c1.calculatePerimeter());
+        }
+
     }
 }

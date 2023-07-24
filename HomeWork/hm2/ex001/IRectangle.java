@@ -1,6 +1,6 @@
 package hm2.ex001;
 
-public interface IRectangle {
+public interface IRectangle extends IConst {
 
 
     default double Width() {
