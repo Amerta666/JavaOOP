@@ -1,7 +1,7 @@
 package sem4.ex004;
 
 public class GenDemo {
-    public static void test(Gen<? super D> o) {
+    public static void test(Gen<? extends A> o) {
         //
     }
 
