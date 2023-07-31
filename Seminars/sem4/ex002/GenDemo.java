@@ -2,17 +2,11 @@ package sem4.ex002;
 
 public class GenDemo {
     public static void main(String[] args) {
-        Gen<Integer> integerGen;
-        integerGen = new Gen<Integer>(88);
-        integerGen.showType();
-        int v = integerGen.getOb();
+        Gen<Integer,String> myOb = new Gen<Integer, String>(88, "Обобщение");
+        myOb.showType();
+        int v = myOb.getOb();
         System.out.println("Значение: " + v);
-        System.out.println();
-
-        Gen<String> stringGen;
-        stringGen = new Gen<String>("Сообщение");
-        stringGen.showType();
-        String str = stringGen.getOb();
+        String str = myOb.getOb2();
         System.out.println("Значение: " + str);
     }
 }
