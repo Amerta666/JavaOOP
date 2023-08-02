@@ -4,7 +4,7 @@ public class Gen<T, V> {
     private T ob; // Объявить объект типа T
     private V ob2; // Объявить объект типа V
 
-    public Gen(T ob, V ob2) {
+    public Gen(T ob) {
 
         this.ob = ob;
         this.ob2 = ob2;
