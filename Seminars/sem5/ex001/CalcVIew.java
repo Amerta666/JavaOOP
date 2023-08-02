@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class CalcVIew {
     Scanner in = new Scanner(System.in);
 
-
     public int userInput() {
         System.out.println("Введите число: ");
         return in.nextInt();
