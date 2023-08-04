@@ -1,6 +1,9 @@
 package hm5;
 
+import java.text.DecimalFormat;
+
 public class CalcPresenter {
+
     private CalcModel model = new CalcModel();
     private CalcView view = new CalcView();
 
@@ -15,13 +18,17 @@ public class CalcPresenter {
         char ch = view.selectOperation();
         double result = 0;
         switch (ch) {
-            case '+': result = model.sum(firstNumber, secondNumber);
+            case '+':
+                result = model.sum(firstNumber, secondNumber);
                 break;
-            case '-': result = model.sub(firstNumber, secondNumber);
+            case '-':
+                result = model.sub(firstNumber, secondNumber);
                 break;
-            case '*': result = model.mul(firstNumber, secondNumber);
+            case '*':
+                result = model.mul(firstNumber, secondNumber);
                 break;
-            case '/': result = model.div(firstNumber, secondNumber);
+            case '/':
+                result = model.div(firstNumber, secondNumber);
                 break;
             default:
                 System.out.println("Введена неверная операция");
