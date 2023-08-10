@@ -1,0 +1,28 @@
+авг. 10, 2023 10:38:58 PM hm7.MyLogger info
+INFO: Первое число - 4.0
+авг. 10, 2023 10:39:01 PM hm7.MyLogger info
+INFO: Второе число - 1.7
+авг. 10, 2023 10:39:03 PM hm7.MyLogger info
+INFO: Операция - *
+авг. 10, 2023 10:39:03 PM hm7.MyLogger info
+INFO: Результат операции - 6.8
+авг. 10, 2023 10:39:03 PM hm7.MyLogger info
+INFO: ---------------------------------------------
+авг. 10, 2023 10:39:08 PM hm7.MyLogger info
+INFO: Первое число - 4.0
+авг. 10, 2023 10:39:09 PM hm7.MyLogger warning
+WARNING: Ввели не число
+авг. 10, 2023 10:39:09 PM hm7.MyLogger info
+INFO: ---------------------------------------------
+авг. 10, 2023 10:39:23 PM hm7.MyLogger info
+INFO: Первое число - 4.0
+авг. 10, 2023 10:39:25 PM hm7.MyLogger info
+INFO: Второе число - 8.0
+авг. 10, 2023 10:39:26 PM hm7.MyLogger info
+INFO: Операция - g
+авг. 10, 2023 10:39:26 PM hm7.MyLogger warning
+WARNING: Введена неверная операция
+авг. 10, 2023 10:39:26 PM hm7.MyLogger info
+INFO: Результат операции - 0.0
+авг. 10, 2023 10:39:26 PM hm7.MyLogger info
+INFO: ---------------------------------------------
