@@ -22,7 +22,7 @@ public class CalcPresenter {
     public void calculate() {
         view.greetings();
         String quit = "";
-        while (!(quit != "")) {
+        while (quit == "") {
             double firstNumber = view.getFirstNumber();
             myLogger.info("Первое число - " + firstNumber);
             double secondNumber = view.getSecondNumber();
