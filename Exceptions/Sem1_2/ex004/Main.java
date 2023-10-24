@@ -9,7 +9,7 @@ package Sem1_2.ex004;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] array = {{1, 0, 1}, {1, 0, 1}, {1, 0, 1}};
+        int[][] array = {{1, 1, 1}, {1, 0, 1}, {1, 0, 1}};
         System.out.println(test(array));
     }
 
@@ -30,7 +30,7 @@ public class Main {
                 sum += arr[i][j];
             }
         }
-        System.out.println("Cумма элементов массива ") ;
+        System.out.println("Cумма элементов массива") ;
         return sum;
     }
 }
