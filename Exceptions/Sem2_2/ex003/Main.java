@@ -43,7 +43,7 @@ public class Main {
                     try {
                         names.put(lineArray[0], Integer.parseInt(lineArray[1]));
                     } catch (NumberFormatException e) {
-                        e.getMessage();
+                        System.out.println("NumberFormatException");
                     }
                 }
                 line = reader.readLine();
@@ -66,12 +66,11 @@ public class Main {
                 try {
                     fw.write(String.format("%s=%s\n",s,integer));
                 } catch (IOException e) {
-                    e.getMessage();
+                    System.out.println("IOException");
                 }
             });
         } catch (IOException e) {
             System.out.println("Ошибка с файлом IO");
         }
     }
-
 }
